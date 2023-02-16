@@ -1,0 +1,23 @@
+<html>
+<meta charset="utf-8">
+<body>
+<div style="color:green;font-size:50px;">
+<script language="JavaScript">
+	function kolor(){
+	var x=prompt("podaj liczbę:","");
+	var a=parseFloat(x);
+	document.write("wczytana liczba:"+a+"<br>"); 
+	if(a==1)
+	{document.write("<p style=\"font-size:40px;color:red;\">wybrałeś kolor czerwony!"+"<br></p>");}
+	if(a==2)
+	{document.write("<p style=\"font-size:25px;color:blue;\">wybrałeś kolor niebieski!"+"<br></p>");}
+	if(a!=1 && a!=2)
+	{document.write("<p style=\"font-size:50px;color:green;\">ZŁA LICZBA!"+"<br></p>"); }
+	}
+	//czeczora 3k
+</script>
+<p> MENU <br><br> <font color="red"> 1.CZERWONY </font> <br> <font color="blue"> 2.NIEBIESKI </font> </p>
+<button onclick="kolor();">Oblicz</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title> </title>
+<script language="JavaScript">
+	var l1_cze=prompt("podaj pierwszą liczbę z przedziału <20,60>:","");
+	var l2_cze=prompt("podaj drugą liczbę z przedziału <20,60>","");
+	var pocz_cze=prompt("podaj wartość początkową wielkości tekstu (px):","");
+	var tekst_cze=prompt("podaj dowolny tekst:","");	
+	if((l1_cze>=20 && l1_cze<=60) && (l2_cze>=20 && l2_cze<=60))
+	{
+	for ( var i=pocz_cze ; i<=l1_cze ; i++ )
+	{document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_cze+"<br></p>");}	
+	}
+	else
+	{
+	document.write("niepoprawne dane");
+	}
+	//czeczora 3k
+</script>
+</head>
+<body>
+</body>
+</html>
